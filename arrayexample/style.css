@@ -1,0 +1,20 @@
+button{
+    margin-left: 10px;
+    width: 100px;
+    padding: 7px;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+}
+
+input[type="text"]{
+    padding: 5px;
+}
+
+.add-button{
+    background-color: blue;
+}
+
+.remove-button{
+    background-color: red;
+}

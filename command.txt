@@ -1,0 +1,31 @@
+Windows Command
+
+
+--->  Concatenate and Display File Contents :
+type filename   like type file.txt
+
+
+--> View file contents one screen at a time,which is useful for large files.
+more filename
+
+--> Display hte first 10 lines of a file by default.
+powershell-Command "Get-Content file.txt-Head 10"
+
+
+
+
+
+Linux command
+
+
+
+--->  Concatenate and Display File Contents :
+cat filename
+
+--> View file contents one screen at a time,which is useful for large files.
+less filename
+
+--> Display hte first 10 lines of a file by default.
+head file.txt
+
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <title>Maths Calculation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>Average of these Values:</h1>
+    <h3>Sample Values are : [4.2, 5.1, 3.8, 4.7, 5.3]</h3>
+    <script>
+
+        // Array of Samples
+        let samples = [4.2,5.1,3.8,4.7,5.3];
+     
+            // Addition of All Array values
+            let sum = 0;
+            samples.forEach(num=> {
+                sum += num;
+            });
+
+            // mean of total
+            let mean = sum/samples.length;
+            console.log("Mean : " + Math.round(mean * 100)/100);
+
+            // Set time for alert after half second
+            setTimeout(function() {
+                alert("Mean : " + Math.round(mean * 100)/100);
+            }, 500);
+            
+        
+    </script>
+</body>
+</html>

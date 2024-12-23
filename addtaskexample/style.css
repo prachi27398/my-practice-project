@@ -1,0 +1,30 @@
+#add_taskbutton{
+    background-color: pink;
+    padding: 5px;
+    border-radius: 5%;
+    margin-top: 10px;
+    width:100px;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+
+li button{
+    margin-left: 15px;
+    background-color: #0c12df;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    color: #fff;
+}
+
+.edit-btn{
+    background-color: green;
+}
+
+input[type='checkbox'], input[type='text'] {
+    margin-left: 15px;
+}

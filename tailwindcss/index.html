@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+    <title >Practice Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js"></script>
+    <script>
+        module.exports = {
+        theme: {
+            extend: {
+            colors: {
+                'regal-blue': '#243c5a',
+            },
+            }
+        }
+        }
+
+    </script>
+    <style>
+        .size{
+            height:100px;
+            width:100px;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-r from-pink-400 to-pink-100">
+    <div class="flex justify-center bg-green-400">
+            <a class="m-1 p-1 bg-green-500 hover:bg-green-700" href="home.html">Home</a>
+            <a class="m-1 p-1 bg-green-500 hover:bg-green-700" href="#">Gallery</a>
+            <a class="m-1 p-1 bg-green-500 hover:bg-green-700" href="javascriptpractice">Js Practice</a>
+            <a class="m-1 p-1 bg-green-500 hover:bg-green-700" href="#">Contact</a>
+    </div>
+    <header class="bg-green-400 p-1 justify-between"></header>
+
+     <div class="m-3 grid grid-cols-2 gap-1 place-content-center sm:grid-cols-3">
+        <div class="demo size border bg-blue-500" id="gallery_text" onclick="ChangeText()">Prachi</div>
+        <div class="size border bg-blue-500">2</div>
+        <div class="size border bg-blue-500">3</div>
+        <div class="size border bg-blue-500">4</div>
+        <div class="size border bg-blue-500">5</div>
+        <div class="size border bg-blue-500">6</div>
+    </div>
+    <div class="h-screen flex justify-center items-center">
+        <div class="text-center w-44 border-2 border-emerald-900 p-2">
+            <h1 class="text-4xl underline underline-offset-4">Tailwind</h1>
+            <p>Tailwind is an awesome framework for CSS that uses utility classes to make the  
+            process of styling way easier.</p>
+            <p>You can use tailwind yourself just click the link below</p>
+            <a href="https://tailwindcss.com" class="font-bold text-emerald-900 boarder boarder-emerald-900 p-1 text-xl hover:bg-emerald-500 scale-150">Tailwind Website</>
+        </div> 
+     </div>
+     
+    <div class="bg-green-400 text-center">
+        <nav>
+            <a href="#home" class="m-1 border text-emerald-900 bg-emerald-200">Home</a>
+            <a href="#home" class="m-1 border text-emerald-900 bg-emerald-200">Gallery</a>
+            <a href="#home" class="m-1 border text-emerald-900 bg-emerald-200">About</a>
+            <a href="#home" class="m-1 border text-emerald-900 bg-emerald-200">Contact</a>
+        </nav>
+        <p>&copy; Cuan Swan ltd.</p>
+        <p>44 Address Road <br>
+            LivingPlace<br>
+            4444
+        </p>
+        <p>brought to you by TailwindCSS</p>
+    </div>
+    <footer class="bg-emerald-400 flex justify-center"></footer>
+</body>
+
+</html>
