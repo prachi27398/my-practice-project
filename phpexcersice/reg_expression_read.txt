@@ -1,0 +1,17 @@
+
+
+preg_match => return 1 if string match found return 0 if string match not found
+
+preg_match_all => return the number of times the pattern was found in the string, may also be 0
+
+preg_replace() => return a new string match pattern have been replaced with another stream_set_blocking
+
+. Find just one instance of any character.
+^ Finds a match as the beginning of a string as in: ^Hello 
+$ Finds a match at the end of the string as in : world$ 
+\d find a digit
+\s Find a whitespce character
+\b Find a match at the beginning of a word like this: \bWORD. or at the end of a word
+like this: WORD\b
+
+\uxxxx Find the Unicode character specified by the hexadecimal number xxxx
