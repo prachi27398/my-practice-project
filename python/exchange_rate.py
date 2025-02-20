@@ -1,0 +1,4 @@
+# Exchange rates
+USD_TO_EUR = 0.954
+USD_TO_GBP = 0.789
+USD_TO_JPY = 149.769
